@@ -45,6 +45,7 @@ img {
 @media screen and (max-width:768px){
   body{
     flex-direction: column;
+    height: auto;
   }
   nav{
     width: 60%;
@@ -54,6 +55,8 @@ img {
   ul{
     display: block;
     text-align: center;
+    padding-left: 0px;
+
   }
   li{
     margin-top: 15px;
